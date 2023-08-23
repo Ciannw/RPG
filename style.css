@@ -1,5 +1,5 @@
 body {
-    background-color: darkblue;
+    background-color: orange;
   }
   
   #text {
@@ -19,13 +19,16 @@ body {
   
   #controls {
     border: 1px black solid;
-    padding: 5px;
+    padding: 5px,24px;
   }
   
   #stats {
     border: 1px black solid;
     color: black;
     padding: 5px;
+  }
+  #stats span{
+    padding-right: 10px;
   }
   
   #monsterStats {
@@ -39,3 +42,9 @@ body {
   .stat {
     padding-right: 10px;
   }
+#controls button{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(128, 3, 231);
+    border-color: aliceblue;
+}
